@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZEnfgDYrooAGzlu8ePQzSJHAtb/eh3/K9v+se5duv/OjOmEU7U7BQWpslOTsp9FbqS8OCAi045lk1ZpNs4D9HA==",
+  "success": true,
+  "projectFilePath": "C:\\Taller1\\Repositorios\\parte2\\juegorol-araasilva\\juegorol\\juegoroll\\juegoroll.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arakp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
