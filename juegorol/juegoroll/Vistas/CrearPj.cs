@@ -17,7 +17,7 @@ namespace juegoroll
 
     {
         List<Personaje> Personajes = new List<Personaje>();
-        Random aleatorio = new Random();
+        
        
         public CrearPj()
         {
@@ -99,16 +99,8 @@ namespace juegoroll
 
             }
             else
-            {
-                int indice1, indice2;
-                do
-                {
-                    indice1 = aleatorio.Next(0, Personajes.Count);
-                    indice2 = aleatorio.Next(0, Personajes.Count);
-                } while (indice1 == indice2);
-                
-
-                Form_Pelea pelea = new Form_Pelea(Personajes[indice1], Personajes[indice2]);
+            { 
+                Form_Pelea pelea = new Form_Pelea(Personajes);
                 pelea.ShowDialog();
             }
 

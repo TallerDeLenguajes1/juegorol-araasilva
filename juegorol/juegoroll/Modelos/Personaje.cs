@@ -107,7 +107,7 @@ namespace juegoroll
             int VA = PD * ED;
             int PDEF = enemigo.Armadura * enemigo.Velocidad;
             int MDP = 50000;
-            int DanioProvocado = ((VA*ED - PDEF)/MDP)*100;
+            int DanioProvocado = (((VA*ED) - PDEF)/MDP)*100;
 
             enemigo.Salud -=  DanioProvocado;
         }

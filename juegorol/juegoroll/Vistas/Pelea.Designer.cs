@@ -195,6 +195,7 @@ namespace juegoroll.Vistas
             this.Atacar1.TabIndex = 2;
             this.Atacar1.Text = "Atacar";
             this.Atacar1.UseVisualStyleBackColor = true;
+            this.Atacar1.Click += new System.EventHandler(this.Atacar1_Click);
             // 
             // Atacar2
             // 
@@ -204,6 +205,7 @@ namespace juegoroll.Vistas
             this.Atacar2.TabIndex = 3;
             this.Atacar2.Text = "Atacar";
             this.Atacar2.UseVisualStyleBackColor = true;
+            this.Atacar2.Click += new System.EventHandler(this.Atacar2_Click);
             // 
             // lbl_Salud
             // 
